@@ -1,0 +1,17 @@
+Node_number, Type_of_component, Name, Connections
+0, e, GWAS marker ID: rs3197999 Gene: MSTI, 1|2
+1, a, Protein Synthesis, 3
+2, a, ?, 4
+3, e, Mutant protein MSP, 5
+4, e, Lower MSP protein abundance, 6
+5, a, Protein-protein interaction, 7
+6, a, Le Chatlier, 7
+7, e, Less protein complex of MSP & RON, 8
+8, a, Cell Signaling, 9&|10
+9, e, Less active Macrophage, 11
+10, e, Less epithelial cell proliferation, 12
+11, a, ?, 13
+12, a, Wound healing, 14
+13, e, Higher Innate immue response, 15
+14, e, Less gut wall integrity, 15
+15, e, Higher Crohn's disease risk, 

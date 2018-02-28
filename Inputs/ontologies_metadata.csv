@@ -1,0 +1,8 @@
+Name,Local_Location,URL_Location,Roots
+GO-Basic,Inputs/ontologies/go-basic.obo,http://purl.obolibrary.org/obo/go/go-basic.obo,"cellular_component,biological_process,molecular_function"
+GO,,http://purl.obolibrary.org/obo/go/go-basic.obo,"cellular_component,biological_process,molecular_function"
+CHEBI,,ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.obo,"ChEBI ontology"
+CL,,,""
+NCBITaxon,,,""
+PR,,,""
+SO,,,""

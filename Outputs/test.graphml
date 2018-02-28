@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="name" attr.type="string" for="node" id="d1" />
+  <key attr.name="component_type" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="directed">
+    <node id="&lt;BlackBox.BlackBox object at 0x000002A6C906EE10&gt;">
+      <data key="d0">Black Box</data>
+      <data key="d1">Black Box</data>
+    </node>
+    <node id="&lt;Activity.Activity object at 0x000002A6C906EFD0&gt;">
+      <data key="d0">Activity</data>
+      <data key="d1">Wound healing</data>
+    </node>
+    <node id="&lt;Activity.Activity object at 0x000002A6C906EE48&gt;">
+      <data key="d0">Activity</data>
+      <data key="d1">Protein-protein interaction</data>
+    </node>
+    <node id="&lt;BlackBox.BlackBox object at 0x000002A6C906EF60&gt;">
+      <data key="d0">Black Box</data>
+      <data key="d1">Black Box</data>
+    </node>
+    <node id="&lt;Entity.Entity object at 0x000002A6C906EE80&gt;">
+      <data key="d0">Entity</data>
+      <data key="d1">Less protein complex of MSP &amp; RON</data>
+    </node>
+    <node id="&lt;Entity.Entity object at 0x000002A6C600DA90&gt;">
+      <data key="d0">Entity</data>
+      <data key="d1">Less gut wall integrity</data>
+    </node>
+    <node id="&lt;Entity.Entity object at 0x000002A6C906EEB8&gt;">
+      <data key="d0">Entity</data>
+      <data key="d1">Less active Macrophage</data>
+    </node>
+    <node id="&lt;Activity.Activity object at 0x000002A6C906EEF0&gt;">
+      <data key="d0">Activity</data>
+      <data key="d1">Cell Signaling</data>
+    </node>
+    <node id="&lt;Entity.Entity object at 0x000002A6C600DB00&gt;">
+      <data key="d0">Entity</data>
+      <data key="d1">Higher Crohn's disease risk</data>
+    </node>
+    <node id="&lt;Entity.Entity object at 0x000002A6C906EF28&gt;">
+      <data key="d0">Entity</data>
+      <data key="d1">Less epithelial cell proliferation</data>
+    </node>
+    <node id="&lt;Entity.Entity object at 0x000002A6C906ED30&gt;">
+      <data key="d0">Entity</data>
+      <data key="d1">GWAS marker ID: rs3197999 Gene: MSTI</data>
+    </node>
+    <node id="&lt;Entity.Entity object at 0x000002A6C906ED68&gt;">
+      <data key="d0">Entity</data>
+      <data key="d1">Mutant protein MSP</data>
+    </node>
+    <node id="&lt;Entity.Entity object at 0x000002A6C906EF98&gt;">
+      <data key="d0">Entity</data>
+      <data key="d1">Higher Innate immue response</data>
+    </node>
+    <node id="&lt;Activity.Activity object at 0x000002A6C906EDA0&gt;">
+      <data key="d0">Activity</data>
+      <data key="d1">Protein Synthesis</data>
+    </node>
+    <node id="&lt;Entity.Entity object at 0x000002A6C906ECF8&gt;">
+      <data key="d0">Entity</data>
+      <data key="d1">Lower MSP protein abundance</data>
+    </node>
+    <node id="&lt;Activity.Activity object at 0x000002A6C906EDD8&gt;">
+      <data key="d0">Activity</data>
+      <data key="d1">Le Chatlier</data>
+    </node>
+    <edge source="&lt;BlackBox.BlackBox object at 0x000002A6C906EE10&gt;" target="&lt;Entity.Entity object at 0x000002A6C906ECF8&gt;" />
+    <edge source="&lt;Activity.Activity object at 0x000002A6C906EFD0&gt;" target="&lt;Entity.Entity object at 0x000002A6C600DA90&gt;" />
+    <edge source="&lt;Activity.Activity object at 0x000002A6C906EE48&gt;" target="&lt;Entity.Entity object at 0x000002A6C906EE80&gt;" />
+    <edge source="&lt;BlackBox.BlackBox object at 0x000002A6C906EF60&gt;" target="&lt;Entity.Entity object at 0x000002A6C906EF98&gt;" />
+    <edge source="&lt;Entity.Entity object at 0x000002A6C906EE80&gt;" target="&lt;Activity.Activity object at 0x000002A6C906EEF0&gt;" />
+    <edge source="&lt;Entity.Entity object at 0x000002A6C600DA90&gt;" target="&lt;Entity.Entity object at 0x000002A6C600DB00&gt;" />
+    <edge source="&lt;Entity.Entity object at 0x000002A6C906EEB8&gt;" target="&lt;BlackBox.BlackBox object at 0x000002A6C906EF60&gt;" />
+    <edge source="&lt;Activity.Activity object at 0x000002A6C906EEF0&gt;" target="&lt;Entity.Entity object at 0x000002A6C906EF28&gt;" />
+    <edge source="&lt;Activity.Activity object at 0x000002A6C906EEF0&gt;" target="&lt;Entity.Entity object at 0x000002A6C906EEB8&gt;" />
+    <edge source="&lt;Entity.Entity object at 0x000002A6C906EF28&gt;" target="&lt;Activity.Activity object at 0x000002A6C906EFD0&gt;" />
+    <edge source="&lt;Entity.Entity object at 0x000002A6C906ED30&gt;" target="&lt;BlackBox.BlackBox object at 0x000002A6C906EE10&gt;" />
+    <edge source="&lt;Entity.Entity object at 0x000002A6C906ED30&gt;" target="&lt;Activity.Activity object at 0x000002A6C906EDA0&gt;" />
+    <edge source="&lt;Entity.Entity object at 0x000002A6C906ED68&gt;" target="&lt;Activity.Activity object at 0x000002A6C906EE48&gt;" />
+    <edge source="&lt;Entity.Entity object at 0x000002A6C906EF98&gt;" target="&lt;Entity.Entity object at 0x000002A6C600DB00&gt;" />
+    <edge source="&lt;Activity.Activity object at 0x000002A6C906EDA0&gt;" target="&lt;Entity.Entity object at 0x000002A6C906ED68&gt;" />
+    <edge source="&lt;Entity.Entity object at 0x000002A6C906ECF8&gt;" target="&lt;Activity.Activity object at 0x000002A6C906EDD8&gt;" />
+    <edge source="&lt;Activity.Activity object at 0x000002A6C906EDD8&gt;" target="&lt;Entity.Entity object at 0x000002A6C906EE80&gt;" />
+  </graph>
+</graphml>
